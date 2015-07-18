@@ -2,7 +2,7 @@
 	<div class="post">
 		<div class="post-content">
 			<h3>
-				<a href="{{url}}">
+				<a href="{{pathFor 'postPage'}}">
 					{{title}}
 				</a>
 				<span>
@@ -10,5 +10,6 @@
 				</span>
 			</h3>
 		</div>
+		<a href="{{pathFor 'postPage'}}" class="discuss btn btn-default">Discuss</a>
 	</div>
 </template>
